@@ -21,11 +21,12 @@ const PORT = process.env.PORT || 3001;
 app.use(express.static(path.join(__dirname, '../dist')));
 
 let gameState = {
-  question: '',
-  answers: [],
-  teamAScore: 0,
-  teamBScore: 0,
-  strikes: 0,
+    question: '',
+    answers: Array(8).fill({ text: '', points: '', revealed: false }),
+    teamAScore: 0,
+    teamBScore: 0,
+    strikes: 0,
+    activeTeam: null
 };
 
 io.on('connection', (socket) => {

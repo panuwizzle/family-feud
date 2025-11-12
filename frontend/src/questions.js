@@ -229,5 +229,30 @@ export const questions = [
             { text: "ตลาด/ถนนคนเดิน", points: 15 },
             { text: "สวนสาธารณะ", points: 10 },
         ],
-    },
+    },{
+    "question": "ชื่อแมวยอดฮิต",
+    "answers": [
+      { "text": "เหมียว", "points": 30 },
+      { "text": "ข้าวฟ่าง", "points": 20 },
+      { "text": "มะลิ", "points": 15 },
+      { "text": "เจ้าขาว", "points": 15 },
+      { "text": "ซูชิ", "points": 10 },
+      { "text": "ไข่ตุ๋น", "points": 5 },
+      { "text": "บัวลอย", "points": 3 },
+      { "text": "ปีโป้", "points": 2 }
+    ]
+  },
+  {
+    "question": "ชื่อหมายอดฮิต",
+    "answers": [
+      { "text": "เจ้าตูบ", "points": 25 },
+      { "text": "โบ้", "points": 20 },
+      { "text": "ข้าวปุ้น", "points": 15 },
+      { "text": "มะขาม", "points": 15 },
+      { "text": "ปังปอนด์", "points": 10 },
+      { "text": "ชิบุ", "points": 8 },
+      { "text": "โกโก้", "points": 5 },
+      { "text": "ซน", "points": 2 }
+    ]
+  }
 ];
