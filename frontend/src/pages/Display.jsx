@@ -54,7 +54,7 @@ const Display = () => {
 
   return (
     <div className="h-screen bg-blue-900 text-white flex flex-col items-center justify-center p-8 bg-[url('/family-feud-bg.jpg')] bg-cover">
-      <div className="bg-gray-900 bg-opacity-50 p-8 rounded-lg w-full max-w-6xl">
+      <div className="bg-blue-900 bg-opacity-90 p-8 rounded-lg w-full max-w-6xl">
         <h1 className="text-6xl font-bold mb-8 text-center">
           {gameState.question}
         </h1>
@@ -67,7 +67,7 @@ const Display = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
-                  className="bg-blue-800 p-4 rounded-lg flex justify-between items-center text-4xl"
+                  className="bg-gradient-to-b from-blue-700 to-blue-900 p-4 rounded-lg flex justify-between items-center text-4xl border-2 border-cyan-400 shadow-lg shadow-cyan-400/30"
                 >
                   {answer.revealed ? (
                     <>

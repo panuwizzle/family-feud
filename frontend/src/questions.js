@@ -229,30 +229,50 @@ export const questions = [
             { text: "ตลาด/ถนนคนเดิน", points: 15 },
             { text: "สวนสาธารณะ", points: 10 },
         ],
-    },{
-    "question": "ชื่อแมวยอดฮิต",
-    "answers": [
-      { "text": "เหมียว", "points": 30 },
-      { "text": "ข้าวฟ่าง", "points": 20 },
-      { "text": "มะลิ", "points": 15 },
-      { "text": "เจ้าขาว", "points": 15 },
-      { "text": "ซูชิ", "points": 10 },
-      { "text": "ไข่ตุ๋น", "points": 5 },
-      { "text": "บัวลอย", "points": 3 },
-      { "text": "ปีโป้", "points": 2 }
-    ]
-  },
-  {
-    "question": "ชื่อหมายอดฮิต",
-    "answers": [
-      { "text": "เจ้าตูบ", "points": 25 },
-      { "text": "โบ้", "points": 20 },
-      { "text": "ข้าวปุ้น", "points": 15 },
-      { "text": "มะขาม", "points": 15 },
-      { "text": "ปังปอนด์", "points": 10 },
-      { "text": "ชิบุ", "points": 8 },
-      { "text": "โกโก้", "points": 5 },
-      { "text": "ซน", "points": 2 }
-    ]
-  }
+    }, {
+        "question": "ชื่อแมวยอดฮิต",
+        "answers": [
+            { "text": "เหมียว", "points": 30 },
+            { "text": "ข้าวฟ่าง", "points": 20 },
+            { "text": "มะลิ", "points": 15 },
+            { "text": "เจ้าขาว", "points": 15 },
+            { "text": "ซูชิ", "points": 10 },
+            { "text": "ไข่ตุ๋น", "points": 5 },
+            { "text": "บัวลอย", "points": 3 },
+            { "text": "ปีโป้", "points": 2 }
+        ]
+    },
+    {
+        "question": "ชื่อหมายอดฮิต",
+        "answers": [
+            { "text": "เจ้าตูบ", "points": 25 },
+            { "text": "โบ้", "points": 20 },
+            { "text": "ข้าวปุ้น", "points": 15 },
+            { "text": "มะขาม", "points": 15 },
+            { "text": "ปังปอนด์", "points": 10 },
+            { "text": "ชิบุ", "points": 8 },
+            { "text": "โกโก้", "points": 5 },
+            { "text": "ซน", "points": 2 }
+        ]
+    },
+    {
+        "question": "อาหารภาคไหนฮิตที่สุด",
+        "answers": [
+            { "text": "ภาคอีสาน", "points": 40 },
+            { "text": "ภาคกลาง", "points": 25 },
+            { "text": "ภาคเหนือ", "points": 20 },
+            { "text": "ภาคใต้", "points": 10 },
+            { "text": "อาหารฟิวชั่น/ทั่วไป", "points": 5 }
+        ]
+    },
+    {
+        "question": "เหตุผลที่คู่รักทะเลาะกันบ่อยที่สุด",
+        "answers": [
+            { "text": "ไม่สื่อสารกัน / เข้าใจผิด", "points": 35 },
+            { "text": "หึงหวง", "points": 25 },
+            { "text": "เรื่องเงิน", "points": 20 },
+            { "text": "ลืมวันสำคัญ", "points": 12 },
+            { "text": "ไม่สนใจกัน", "points": 8 }
+        ]
+    }
 ];
